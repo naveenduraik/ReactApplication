@@ -10,9 +10,9 @@ function App() {
      {/* <Greet />    
       <Welcome /> */}
       {/* <Hello /> */}
-      <Greet name ="bruce" heroName = "Batman" />
-      <Greet name ="clarke" heroName = "Superman"/>
-      <Greet name = "diana" heroName = "WonderWoman" />  
+      <Greet name = "Bruce"  heroName = "Batman" />
+      <Greet name = "Clarke" heroName ="SuperMan" />
+      <Greet name = "Diana" heroName = "WonderWoman"/>
       
     </div>
   );
