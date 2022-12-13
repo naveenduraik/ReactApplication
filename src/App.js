@@ -13,7 +13,9 @@ function App() {
       <Greet name = "Bruce"  heroName = "Batman">
         <p>This is a children props</p>
       </Greet>
-      <Greet name = "Clarke" heroName ="SuperMan" />
+      <Greet name = "Clarke" heroName ="SuperMan" >
+        <button>Action</button>
+      </Greet>
       <Greet name = "Diana" heroName = "WonderWoman"/>
       
     </div>
