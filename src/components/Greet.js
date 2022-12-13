@@ -9,7 +9,12 @@ import React  from "react";
  //const Greet = () => <h1>Hello IamNeo</h1> //named export
  const Greet = (props) =>{
     console.log(props)
-    return <h1> Hello {props.name} | {props.heroName} </h1>
- }
+    return (
+        <div>
+         <h1> Hello {props.name} | {props.heroName} </h1>
+        {props.children}
+        </div>
+    )
+}
 
 export default Greet;

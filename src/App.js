@@ -10,7 +10,9 @@ function App() {
      {/* <Greet />    
       <Welcome /> */}
       {/* <Hello /> */}
-      <Greet name = "Bruce"  heroName = "Batman" />
+      <Greet name = "Bruce"  heroName = "Batman">
+        <p>This is a root </p>
+      </Greet>
       <Greet name = "Clarke" heroName ="SuperMan" />
       <Greet name = "Diana" heroName = "WonderWoman"/>
       
