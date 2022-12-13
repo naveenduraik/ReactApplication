@@ -11,7 +11,7 @@ function App() {
       <Welcome /> */}
       {/* <Hello /> */}
       <Greet name = "Bruce"  heroName = "Batman">
-        <p>This is a root </p>
+        <p>This is a children props</p>
       </Greet>
       <Greet name = "Clarke" heroName ="SuperMan" />
       <Greet name = "Diana" heroName = "WonderWoman"/>
